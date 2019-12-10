@@ -1,0 +1,28 @@
+/*HTML*/
+html {
+    scroll-behavior: smooth;
+  }
+/*nav*/
+nav {
+    text-align: center;
+    text-decoration: none;
+}
+/*ul*/
+ul, li {
+    display: inline;
+    list-style-type: none;
+    color: white;
+}
+/*Classes*/
+.tesla{
+    margin: 0%;
+    padding: 0%;
+    height: 100vh;
+    width: 100%;
+    background-image: url("../images/statistics_home_page.png");
+}
+.arrow {
+    position: relative;
+    left: 50%;
+    top: 625px;
+}
