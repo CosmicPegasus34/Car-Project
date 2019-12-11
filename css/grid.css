@@ -1,0 +1,15 @@
+/*Mobile*/
+@media only screen and (max-width: 600px;) {
+
+}
+/*Tablet*/
+@media only screen and (min-width: 601px; max-width: 1199px;) {
+
+}
+/*Desktop*/
+@media only screen and (min-width: 1200px;) {
+    .grid-container {
+        grid-template-columns: 60% 1fr 1fr 60%;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+}
