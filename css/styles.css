@@ -32,22 +32,38 @@ div button {
 button { 
     background-color: rgba(255, 255, 255, 0);
     border: white 2px solid;
-    color: black;
+    color: white;
 }
 button:hover{
     border: black solid 2px;
     background-color: white;
+}
+.button2 {
+    top: 2200px;
+    color: white;
+}
+.button2:hover {
+    color: black;
 }
 /*Classes*/
 .tesla{
     margin: 0%;
     padding: 0px;
     height: 100vh;
-    width: 100vw;
     width: 100%;
 }
 .white-arrow {
     position: relative;
-    left: 50%;
+    left: 725px;
     top: 625px;
+}
+/*ID's*/
+#tesla-logo {
+    position: absolute;
+    left: 400px;
+}
+#arrow1 {
+    position: relative;
+    top: 200px; 
+    left: 100px;
 }

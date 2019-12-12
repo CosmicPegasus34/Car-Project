@@ -3,35 +3,44 @@
     <head>
         <!--Authors: Caleb Sonnichsen, Evan French-->
         <meta name="viewport" content="device-width, inital-scale=1">
+        <link rel="icon" type="image/png" href="images/logo.png">
         <link rel="stylesheet" type="text/css" href="css/styles.css">
         <link rel="stylesheet" type="text/css" href="css/reset.css">
-        <script>
-
-        </script>
+        <link rel="stylesheet" type="text/css" href="css/grid.css">
         <title>Tesla Model X - Car Project</title>
     </head>
     <body>
-        <nav>
-            <ul>
-                <li<><a href="statistics.html">Statistics</a></li>
-                <li><a href="accessories.html">Accessories</a></li>
-            </ul>
-        </nav>
-        <div class="tesla">
-                <div style="background-image: url('images/home_page.png')">
-                    <a class="white-arrow" href="#tesla"><img src="images/white_down_arrow.png" width="64px" height="64px"></a>
+        <div class="grid-container">
+                <nav>
+                    <ul>
+                        <li<><a href="statistics.html">Statistics</a></li>
+                        <li><a href="accessories.html">Accessories</a></li>
+                    </ul>
+                </nav>
+                <div>
                 </div>
-        </div>
-        <div class="tesla">
-            <div style="background-image: url('images/supercharger.png')">
-                <a href="accessories.html"><button type="button">Accessories</button></a>
-                <a class="white-arrow" id="tesla" href="#tesla2"><img src="images/white_down_arrow.png" width="64px" height="64px"></a>
+                <div class="tesla item1">
+                        <div style="background-image: url('images/home_page.png'); background-repeat: no-repeat;">
+                            <img id="tesla-logo" src="images/tesla_logo.png" width="45%" height="70%">
+                            <a class="white-arrow" id="arrow1" href="#tesla"><img src="images/white_down_arrow.png" width="64px" height="64px"></a>
+                        </div>
+                </div>
             </div>
-        </div>
-        <div class="tesla">
-            <div style="background-image: url('images/statistics_home_page.png')">
-                <a href="statistics.html"><button type="button">Statistics</button></a>
-                <a class="white-arrow" id="tesla2"></a>
+            <div class="item2">
+                <div class="tesla" id="tesla">
+                    <div style="background-image: url('images/supercharger.png'); background-repeat: no-repeat;">
+                        <a href="accessories.html"><button type="button" class="button2">Accessories</button></a>
+                        <a class="white-arrow" href="#tesla2"><img src="images/white_down_arrow.png" width="64px" height="64px"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="item3">
+                <div class="tesla" id="tesla2">
+                    <div style="background-image: url('images/statistics_home_page.png'); background-repeat: no-repeat;">
+                        <a href="statistics.html"><button type="button">Statistics</button></a>
+                        <a class="white-arrow"></a>
+                    </div>
+                </div>
             </div>
         </div>
     </body>
