@@ -1,15 +1,30 @@
 /*Mobile*/
-@media only screen and (max-width: 600px;) {
-
-}
-/*Tablet*/
-@media only screen and (min-width: 601px; max-width: 1199px;) {
-
-}
-/*Desktop*/
-@media only screen and (min-width: 1200px;) {
+@media only screen and (max-width: 600px) {
     .grid-container {
         grid-template-columns: 60% 1fr 1fr 60%;
         grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+    .item1 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 5;
+    }
+}
+/*Tablet*/
+@media only screen and (min-width: 601px) and (max-width: 1199px){
+
+}
+/*Desktop*/
+@media only screen and (min-width: 1200px) {
+    .grid-container {
+        grid-template-columns: 60% 1fr 1fr 60%;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+    .item1 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 5;
     }
 }
