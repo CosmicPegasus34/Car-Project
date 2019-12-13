@@ -23,27 +23,19 @@ ul, li {
 div button {
     z-index: 5;
     position: absolute;
-    left: 40%;
-    top: 1300px;
     border-radius: 35%;
     width: 300px;
     height: 50px;
 }
 button { 
-    background-color: rgba(255, 255, 255, 0);
-    border: white 2px solid;
-    color: white;
-}
-button:hover{
-    border: black solid 2px;
     background-color: white;
+    border: black 2px solid;
+    color: black;
 }
 .button2 {
     top: 2200px;
-    color: white;
-}
-.button2:hover {
     color: black;
+    background-attachment: white;
 }
 /*Classes*/
 .tesla{
