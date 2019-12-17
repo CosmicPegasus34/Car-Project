@@ -3,6 +3,29 @@ html {
     scroll-behavior: smooth;
     width: 100%;
 }
+/*Tables*/
+dl {
+    display: table;
+    border-collapse: collapse;
+    width: 300px;
+}
+dl div {
+    display: table-row;
+}
+dt, dd {
+    display: table-cell;
+    border: 1px solid black;
+    vertical-align: top;
+    padding: 5px;
+    column-rule-style: dotted;
+    justify-content: center;
+}
+p{
+    column-rule-style: dotted;
+    widows: 3;
+    height: 99px;
+    overflow: visible;
+}
 /*nav*/
 nav {
     text-align: center;
@@ -21,7 +44,8 @@ nav a:hover {
 div {
     height: 100%;
     width: 100%;
-}
+    position: relative;
+}   
 /*ul*/
 ul, li {
     display: inline;
@@ -72,8 +96,9 @@ button:hover {
     width: 600px;
     height: 300px;
     position: absolute;
+    overflow-wrap: break-word;
+    overflow: hidden;
 }
-
 /*ID's*/
 #tesla-logo {
     position: absolute;
