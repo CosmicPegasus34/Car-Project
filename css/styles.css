@@ -7,6 +7,15 @@ html {
 nav {
     text-align: center;
     text-decoration: none;
+    background-color: black;
+    color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 500;
+}
+
+nav a:hover {
+
 }
 /*DIV*/
 div {
@@ -28,14 +37,24 @@ div button {
     height: 50px;
 }
 button { 
-    background-color: white;
-    border: black 2px solid;
-    color: black;
+    background-color: transparent;
+    border: white 2px solid;
+    color: white;
 }
 .button2 {
     top: 2200px;
+    color: white;
+    background-attachment: transparent;
+}
+button:hover {
+    background-color:white;
     color: black;
-    background-attachment: white;
+    transition: .5s;
+}
+.button2:hover {
+    background-color:white;
+    color: black;
+    transition: .5s;
 }
 /*Classes*/
 .tesla{
