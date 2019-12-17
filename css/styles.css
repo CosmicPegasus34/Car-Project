@@ -49,13 +49,23 @@ button {
     left: 725px;
     top: 625px;
 }
+.Accessories {
+    width: 600px;
+    height: 300px;
+    position: absolute;
+}
+
 /*ID's*/
 #tesla-logo {
     position: absolute;
     left: 400px;
+    z-index: 5;
 }
 #arrow1 {
     position: relative;
     top: 200px; 
     left: 100px;
+}
+.move:hover {
+    transition: 15s;
 }
