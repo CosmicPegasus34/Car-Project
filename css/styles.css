@@ -3,28 +3,40 @@ html {
     scroll-behavior: smooth;
     width: 100%;
 }
+/*Body*/
+body {
+    overflow-x: hidden;
+}
+/*H1*/
+h1 {
+    color: white;
+}
 /*Tables*/
 dl {
     display: table;
     border-collapse: collapse;
     width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 dl div {
     display: table-row;
 }
 dt, dd {
     display: table-cell;
-    border: 1px solid black;
     vertical-align: top;
     padding: 5px;
     column-rule-style: dotted;
-    justify-content: center;
 }
 p{
     column-rule-style: dotted;
     widows: 3;
     height: 99px;
-    overflow: visible;
+    overflow: hidden;
+    width: 50%;
+    margin: 0px;
+    padding: 0px;
 }
 /*nav*/
 nav {
@@ -40,10 +52,6 @@ nav {
 nav a{
     color: white;
     text-decoration: none;
-
-}
-nav a:hover {
-
 }
 /*DIV*/
 div {
@@ -115,6 +123,7 @@ button:hover {
     top: 200px; 
     left: 100px;
 }
-.move:hover {
-    transition: 15s;
+#statistics_table {
+    display: inline;
+    color: white;
 }
