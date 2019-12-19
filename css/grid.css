@@ -120,8 +120,8 @@
         background-image: url('../images/supercharger.png');
         background-position: 100px;
     }
-    .item2 div img {
-        height: 100%;
+    .item2 div {
+        height: 90%;
     }
     .item2 #arrow2 {
         position: relative;
@@ -129,8 +129,8 @@
         left: 400px;
     }
     .item2 button {
-        left: 39%;
-        top: 1900px;
+        left: 43%;
+        top: 500px;
         background-color: white;
         color: black;
     }
@@ -146,7 +146,7 @@
         height: 100%;
     }
     .item3 button {
-        top: 1200px;
+        top: 500px;
         left: 40%;
     }
     div.tesla {
@@ -207,7 +207,7 @@
     }
     .item2 button {
         left: 39%;
-        top: 1300px;
+        top: 500px;
         background-color: white;
         color: black;
     }
@@ -222,8 +222,8 @@
         height: 100%;
     }
     .item3 button {
-        top: 2000px;
-        left: 40%;
+        left: 39%;
+        top: 545px;
     }
     div.tesla {
         height: 100%;
